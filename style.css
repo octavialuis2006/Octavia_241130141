@@ -1,0 +1,108 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: white;
+  margin: 0;
+  padding: 20px;
+}
+.green-line {
+  width: 100%;
+  height: 3px;
+  background-color: green;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 30px;
+}
+
+.shop {
+  flex: 2;
+}
+
+.highlight {
+  color: green;
+  font-weight: bold;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid green;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.product img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.product-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+}
+
+.qty-control button {
+  width: 25px;
+  height: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.qty-control span {
+  margin: 0 8px;
+}
+
+.order-summary {
+  flex: 1;
+  border: 1px solid green;
+  padding: 15px;
+}
+
+.order-summary h3 {
+  font-weight: bold;
+}
+
+.order-summary input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid lightgrey;
+}
+
+.order-summary input:invalid {
+  border-color: red;
+}
+
+.reset {
+  background: red;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.apply {
+  background: green;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.total {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
